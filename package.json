@@ -1,0 +1,27 @@
+{
+  "name": "vr-payment-source",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "An NPM package to use vr payment gateway for your e-commerce website",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Ravi Vaghasiya",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "jsdom": "^24.0.0",
+    "open": "^10.1.0",
+    "sweet-modal": "^1.3.2",
+    "sweetalert2": "^11.10.8",
+    "typescript": "^5.4.5"
+  },
+  "files": ["lib/**/*"]
+}
